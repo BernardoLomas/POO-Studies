@@ -11,8 +11,10 @@
         for (int i = 1; i <= n; i++)
             Console.Write($"{i} - ");
 
-        var A = CountPar(n);
-        var B = Sum(n);
+        Console.WriteLine("\n");
+
+        int A = CountPar(n);
+        int B = Sum(n);
 
         Console.WriteLine($"Number of pairs among 1 and {n}: {A}");
         Console.WriteLine($"Sum of numbers among 1 and {n}: {B}");
@@ -23,7 +25,7 @@
         int countPar = 0;
         for (int i = 1; i <= n; i++)
         {
-            if (i / 2)
+            if (i % 2 == 0)
                 countPar++;
         }
 
