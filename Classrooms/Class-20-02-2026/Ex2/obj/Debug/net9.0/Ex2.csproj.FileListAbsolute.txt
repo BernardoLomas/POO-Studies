@@ -1,0 +1,5 @@
+C:\Users\berna\Documents\Repositórios GitHub\Estudos\POO-Studies\Classrooms\Class-20-02-2026\Ex2\obj\Debug\net9.0\Ex2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berna\Documents\Repositórios GitHub\Estudos\POO-Studies\Classrooms\Class-20-02-2026\Ex2\obj\Debug\net9.0\Ex2.AssemblyInfoInputs.cache
+C:\Users\berna\Documents\Repositórios GitHub\Estudos\POO-Studies\Classrooms\Class-20-02-2026\Ex2\obj\Debug\net9.0\Ex2.AssemblyInfo.cs
+C:\Users\berna\Documents\Repositórios GitHub\Estudos\POO-Studies\Classrooms\Class-20-02-2026\Ex2\obj\Debug\net9.0\Ex2.csproj.CoreCompileInputs.cache
+C:\Users\berna\Documents\Repositórios GitHub\Estudos\POO-Studies\Classrooms\Class-20-02-2026\Ex2\obj\Debug\net9.0\Ex2.sourcelink.json

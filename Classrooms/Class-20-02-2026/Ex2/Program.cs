@@ -8,7 +8,7 @@
         int q = int.Parse(Console.ReadLine());
         
         var A = Multiples(n, q);
-        Console.WriteLine($"")
+        Console.WriteLine($"Result: {A}");
 
     }
 
