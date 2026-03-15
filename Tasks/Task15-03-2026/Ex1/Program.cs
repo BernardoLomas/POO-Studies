@@ -46,19 +46,19 @@ class Program
 
         Console.WriteLine($"Digite o nome do titular: ");
         string nome = Console.ReadLine();
-        conta.SetTitular("Bernardo Lomas");
+        conta.SetTitular(nome);
 
         Console.WriteLine($"Digite o saldo inicial: ");
         double saldo = double.Parse(Console.ReadLine());
-        conta.SetSaldo(1000);
+        conta.SetSaldo(saldo);
 
         Console.WriteLine("Digite o valor para depósito: ");
         double deposito = double.Parse(Console.ReadLine());
-        conta.Depositar(500);
+        conta.Depositar(deposito);
 
         Console.WriteLine($"Digite o valor para saque: ");
         double saque = double.Parse(Console.ReadLine());
-        conta.Sacar(20);
+        conta.Sacar(saque);
 
         Console.WriteLine($"Titular: " + conta.GetTitular());
         Console.WriteLine($"Saldo: " + conta.GetSaldo());
