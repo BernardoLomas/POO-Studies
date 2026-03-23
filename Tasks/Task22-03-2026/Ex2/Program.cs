@@ -21,13 +21,14 @@ class Program
     {
         Console.WriteLine($"Quantos alunos deseja cadastrar? ");
         int qtd = int.Parse(Console.ReadLine());
-
+        
         for(int i = 0; i < qtd; i++)
         {
             Console.WriteLine($"Digite o nome do aluno a ser cadastrado: ");
             string nome = Console.ReadLine();
 
             Aluno novo = new Aluno(nome);
+            Console.WriteLine($"Aluno cadastrado: {novo.Nome}");
         }
 
         Aluno.ExibirTotalAlunos();
