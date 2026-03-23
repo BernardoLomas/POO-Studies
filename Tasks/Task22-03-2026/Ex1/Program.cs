@@ -26,7 +26,5 @@ class Program
         double resultadoC = ConversorTemperatura.FahrenheitParaCelsius(f);
         Console.WriteLine($"Resultado: {resultadoC} graus Celsius");
         
-
-
     }
 }
